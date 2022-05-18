@@ -1,0 +1,20 @@
+# development - Experimental configuration
+# We're breaking the components that can't be upstreamed out of the standard rosdistro repo
+# Once we merge the parts that can be upstreamed, the "generic" section should be redirected
+# back to 'https://raw.githubusercontent.com/ros/rosdistro/master/*'
+
+# os-specific listings first
+yaml https://raw.githubusercontent.com/neotinker/rosdistro/development/rosdep/osx-homebrew.yaml osx
+
+# There are some requirements that are not a part of openSUSE/SLES and are provided by unofficial repositories.
+# We will keep them seperate to prevent them from accidentally getting merged upstream.
+yaml https://raw.githubusercontent.com/neotinker/rosdistro-suse/development/ros-infrastructure.yaml
+yaml https://raw.githubusercontent.com/neotinker/rosdistro-suse/development/external_dependencies.yaml
+
+# generic
+yaml https://raw.githubusercontent.com/neotinker/rosdistro/development/rosdep/base.yaml
+yaml https://raw.githubusercontent.com/neotinker/rosdistro/development/rosdep/python.yaml
+yaml https://raw.githubusercontent.com/neotinker/rosdistro/development/rosdep/ruby.yaml
+gbpdistro https://raw.githubusercontent.com/neotinker/rosdistro/development/releases/fuerte.yaml fuerte
+
+# newer distributions (Groovy, Hydro, ...) must not be listed anymore, they are being fetched from the rosdistro index.yaml instead

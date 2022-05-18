@@ -1,0 +1,12 @@
+# build_test - Original modified rosdistro config
+
+# os-specific listings first
+yaml https://raw.githubusercontent.com/neotinker/rosdistro/build_test/rosdep/osx-homebrew.yaml osx
+
+# generic
+yaml https://raw.githubusercontent.com/neotinker/rosdistro/build_test/rosdep/base.yaml
+yaml https://raw.githubusercontent.com/neotinker/rosdistro/build_test/rosdep/python.yaml
+yaml https://raw.githubusercontent.com/neotinker/rosdistro/build_test/rosdep/ruby.yaml
+gbpdistro https://raw.githubusercontent.com/neotinker/rosdistro/build_test/releases/fuerte.yaml fuerte
+
+# newer distributions (Groovy, Hydro, ...) must not be listed anymore, they are being fetched from the rosdistro index.yaml instead
