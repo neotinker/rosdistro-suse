@@ -6,4 +6,5 @@ Rosdistro-SUSE - Notes and openSUSE/SLES specific configuration
 
 "External Dependencies" - These are dependencies that are needed to build ROS packages.
 
-
+"ros_external_extras_suse" - This directory contains source.list files
+	This directory gets packaged by OBS separately from the rest of this repostory.
