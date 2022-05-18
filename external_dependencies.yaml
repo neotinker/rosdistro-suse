@@ -1,0 +1,23 @@
+gazebo9:
+  opensuse: [gazebo9]
+libconsole-bridge-dev:
+  opensuse: [libconsole_bridge0_4]
+libfcl-dev:
+  opensuse: [fcl-devel]
+libgazebo9-dev:
+  opensuse: [gazebo9-devel]
+liborocos-kdl:
+  opensuse: [liborocos-kdl1_5]
+liborocos-kdl-dev:
+  opensuse: [orocos-kdl-devel]
+libpcl-all:
+  opensuse: [libpcl1.9, pcl-tools]
+libpcl-all-dev:
+  opensuse: [pcl-devel]
+liburdfdom-headers-dev:
+  opensuse: [urdfdom_headers-devel]
+liburdfdom-tools:
+  opensuse: [urdfdom]
+python3-pykdl:
+  opensuse: [python3-pykdl]
+
