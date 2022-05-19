@@ -1,0 +1,12 @@
+# devel-testing - Newer modified rosdistro. Only intended to work with openSUSE/SLES 15.3
+
+# os-specific listings first
+yaml https://raw.githubusercontent.com/neotinker/rosdistro/devel-testing/rosdep/osx-homebrew.yaml osx
+
+# generic
+yaml https://raw.githubusercontent.com/neotinker/rosdistro/devel-testing/rosdep/base.yaml
+yaml https://raw.githubusercontent.com/neotinker/rosdistro/devel-testing/rosdep/python.yaml
+yaml https://raw.githubusercontent.com/neotinker/rosdistro/devel-testing/rosdep/ruby.yaml
+gbpdistro https://raw.githubusercontent.com/neotinker/rosdistro/devel-testing/releases/fuerte.yaml fuerte
+
+# newer distributions (Groovy, Hydro, ...) must not be listed anymore, they are being fetched from the rosdistro index.yaml instead
