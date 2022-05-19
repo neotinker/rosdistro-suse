@@ -1,7 +1,6 @@
 NOETIC SOURCE INSTALLATION
 
-PREAMBLE
-	Currently, we are only building for openSUSE/SLES 15.3 and can only build some of the metapackages (https://github.com/ros/metapackages).
+Currently, we are only building for openSUSE/SLES 15.3 and can only build some of the metapackages (https://github.com/ros/metapackages).
 
 	We are able to build the following metapackages:
 	  ros_core
@@ -10,7 +9,7 @@ PREAMBLE
 	  viz
 	  perception
 
-	I have created two projects in the OpenSUSE Build Service, "ROS:External_Dependencies" and "ROS:ros-infrastructure". The "ROS:ros-infrastructure" project contains builds of the ROS tools needed to start building ROS applications. The "ROS:External_Dependencies" project is where I am maintaining builds of any ROS dependencies which don't exist in either openSUSE or SLES.
+I have created two projects in the OpenSUSE Build Service, "ROS:External_Dependencies" and "ROS:ros-infrastructure". The "ROS:ros-infrastructure" project contains builds of the ROS tools needed to start building ROS applications. The "ROS:External_Dependencies" project is where I am maintaining builds of any ROS dependencies which don't exist in either openSUSE or SLES.
 
 https://build.opensuse.org/project/show/home:neotinker3:ROS:ros-infrastructure
 https://build.opensuse.org/project/show/home:neotinker3:ROS:External_Dependencies
@@ -25,12 +24,16 @@ For section 1.1, "Installing bootstrap dependencies"
 1) Install the "ros-infrastructure" and "External Dependiencies" repos for your OS. You may need extra extensions/modules installed for SLES.
 
 $ sudo zypper --gpg-auto-import-keys ar -f -n "ROS Infrastructure (openSUSE_Leap_15.3)" http://download.opensuse.org/repositories/home:/neotinker3:/ROS:/ros-infrastructure/openSUSE_Leap_15.3/ ROS-Infrastructure
+
 $ sudo zypper --gpg-auto-import-keys ar -f -n "ROS External Dependencies (openSUSE_Leap_15.3)" https://download.opensuse.org/repositories/home:/neotinker3:/ROS:/External_Dependencies/openSUSE_Leap_15.3/ ROS-External-Dependencies
+
 $ sudo zypper refresh
 
 2) Install "base" packages
 
 $ sudo zypper in gcc-c++ python2-rosdep python2-rosinstall_generator python2-wstool python2-rosinstall libboost_system1_66_0-devel libboost_chrono1_66_0-devel libboost_date_time1_66_0-devel libboost_serialization1_66_0-devel libboost_thread1_66_0-devel libboost_filesystem1_66_0-devel libboost_program_options1_66_0-devel liblz4-devel libboost_signals1_66_0-devel libboost_regex1_66_0-devel python3-vcstool ros_external_cmake_modules
+
+$ sudo zypper in gcc-c++ python3-rosdep python3-rosinstall_generator python3-wstool python3-rosinstall libboost_system1_66_0-devel libboost_chrono1_66_0-devel libboost_date_time1_66_0-devel libboost_serialization1_66_0-devel libboost_thread1_66_0-devel libboost_filesystem1_66_0-devel libboost_program_options1_66_0-devel liblz4-devel libboost_signals1_66_0-devel libboost_regex1_66_0-devel python3-vcstool
 
 If you have X11 installed, you should already have these but if you encounter an error in compiling apps (ex. pcl_ros or gazebo_ros), then make sure these rpms are installed.
 
