@@ -14,6 +14,7 @@ This git repository is intended to fill the gap between ROS and SUSE. It holds a
 - 10-suse.list.development - Future development testing. To be used in conjuncture with the 20-default.list provided by ROS.
 - 10-suse.list.master - Future production source.list file. To be used in conjuncture with the 20-default.list provided by ROS.
 
+## Custom Rosdep files - These contain package lookups that we can't upstream.
 ros-infrastructure.yaml - Contains package lookups for packages in the ROS Infrastructure repository.
 external_dependencies.yaml - Contains package lookups for packages in the External Dependencies repository.
 
