@@ -31,9 +31,7 @@ $ sudo zypper refresh
 
 2) Install "base" packages
 
-$ sudo zypper in gcc-c++ python2-rosdep python2-rosinstall_generator python2-wstool python2-rosinstall libboost_system1_66_0-devel libboost_chrono1_66_0-devel libboost_date_time1_66_0-devel libboost_serialization1_66_0-devel libboost_thread1_66_0-devel libboost_filesystem1_66_0-devel libboost_program_options1_66_0-devel liblz4-devel libboost_signals1_66_0-devel libboost_regex1_66_0-devel python3-vcstool ros_external_cmake_modules
-
-$ sudo zypper in gcc-c++ python3-rosdep python3-rosinstall_generator python3-wstool python3-rosinstall libboost_system1_66_0-devel libboost_chrono1_66_0-devel libboost_date_time1_66_0-devel libboost_serialization1_66_0-devel libboost_thread1_66_0-devel libboost_filesystem1_66_0-devel libboost_program_options1_66_0-devel liblz4-devel libboost_signals1_66_0-devel libboost_regex1_66_0-devel python3-vcstool
+$ sudo zypper in gcc-c++ python3-rosdep python3-rosinstall_generator python3-wstool python3-rosinstall libboost_system1_66_0-devel libboost_chrono1_66_0-devel libboost_date_time1_66_0-devel libboost_serialization1_66_0-devel libboost_thread1_66_0-devel libboost_filesystem1_66_0-devel libboost_program_options1_66_0-devel liblz4-devel libboost_signals1_66_0-devel libboost_regex1_66_0-devel python3-vcstool python3-numpy-devel
 
 If you have X11 installed, you should already have these but if you encounter an error in compiling apps (ex. pcl_ros or gazebo_ros), then make sure these rpms are installed.
 
@@ -50,6 +48,7 @@ For section 1.2, "Initializing rosdep"
 1) Initialize rosdep sources
 
 $ export ROSDISTRO_INDEX_URL=https://raw.githubusercontent.com/neotinker/rosdistro/devel-testing/index-v4.yaml
+
 $ sudo rosdep init
 
 2) Update the rosdep sources to point to my git repo
@@ -62,8 +61,4 @@ $ sudo cp /usr/share/ros/20-default.list.devel-testing /etc/ros/rosdep/sources.l
 
 $ rosdep update
 
-Follow sections 2 through 2.1.1 as specified in the source install wiki. Before you run the "vcs import src" command, you need to make sure the "src" directory exists. If any thing else doesn't work, let me know.
-
-See also
-https://github.com/ros-infrastructure
-https://github.com/ros/rosdistro
+Follow sections 2 through 2.1.1 as specified in the source install wiki. If any thing else doesn't work, let me know.
