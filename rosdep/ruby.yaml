@@ -1,0 +1,2 @@
+ruby:
+  opensuse: [ruby, ruby-devel, openssl-devel]

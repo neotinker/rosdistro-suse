@@ -1,0 +1,430 @@
+cython:
+  opensuse: [python2-Cython]
+cython3:
+  opensuse: [python3-Cython]
+ipython:
+  opensuse: [python2-ipython]
+meson:
+  opensuse: [meson]
+paramiko:
+  opensuse: [python-paramiko]
+python:
+  opensuse: [python-devel]
+python-argcomplete:
+  opensuse: [python2-argcomplete]
+python-argparse:
+  opensuse: [python]
+python-avahi:
+  opensuse: [python3-avahi]
+python-backoff-pip:
+  opensuse:
+    pip: {packages: [backoff]}
+python-bloom:
+  opensuse: [python3-bloom]
+python-bluez:
+  opensuse: [python2-pybluez]
+python-boto3:
+  opensuse: [python-boto3]
+python-bson:
+  opensuse: [python2-bson]
+python-cairo:
+  opensuse: [python2-cairo]
+python-cairosvg:
+  opensuse: [python3-CairoSVG]
+python-catkin-pkg:
+  opensuse: [python2-catkin_pkg]
+python-catkin-pkg-modules:
+  opensuse: [python2-catkin_pkg]
+python-catkin-sphinx:
+  opensuse: [python3-catkin-sphinx]
+python-chainer-pip:
+  opensuse:
+    pip: {packages: [chainer]}
+python-cheetah:
+  opensuse: [python-Cheetah]
+python-click:
+  opensuse: [python2-click]
+python-coverage:
+  opensuse: [python2-coverage]
+python-crypto:
+  opensuse: [python2-pycrypto]
+python-cwiid:
+  opensuse: [python-cwiid]
+python-defusedxml:
+  opensuse: [python2-defusedxml]
+python-docker:
+  opensuse: [python2-docker]
+python-docopt:
+  opensuse: [python2-docopt]
+python-docutils:
+  opensuse: [python2-docutils]
+python-dt-apriltags-pip:
+  opensuse:
+    pip: [dt-apriltags]
+python-empy:
+  opensuse: [python2-empy]
+python-enum34:
+  opensuse: [python-enum34]
+python-freezegun-pip:
+  opensuse:
+    pip: {packages: [freezegun]}
+python-future:
+  opensuse: [python2-future]
+python-gi:
+  opensuse: [python2-gobject]
+python-gi-cairo:
+  opensuse: [python2-gobject-cairo]
+python-gnupg:
+  opensuse: [python2-python-gnupg]
+python-gtk2:
+  opensuse: [python-gtk]
+python-h5py:
+  opensuse: [python2-h5py]
+python-imageio:
+  opensuse: [python2-imageio]
+python-imaging:
+  opensuse: [python2-Pillow]
+python-joblib:
+  opensuse: [python2-joblib]
+python-kitchen:
+  opensuse: [python2-kitchen]
+python-lxml:
+  opensuse: [python2-lxml]
+python-matplotlib:
+  opensuse: [python2-matplotlib]
+python-mechanize:
+  opensuse: [python2-mechanize]
+python-mock:
+  opensuse: [python2-mock]
+python-monotonic:
+  opensuse: [python2-monotonic]
+python-msgpack:
+  opensuse: [python2-msgpack]
+python-netifaces:
+  opensuse: [python2-netifaces]
+python-nose:
+  opensuse: [python2-nose]
+python-numpy:
+  opensuse: [python2-numpy-devel]
+python-numpydoc:
+  opensuse: [python-numpydoc]
+python-opencv:
+  opensuse: [python2-opencv]
+python-opengl:
+  opensuse: [python2-opengl]
+python-pandas:
+  opensuse: [python2-pandas]
+python-paramiko:
+  opensuse: [python2-paramiko]
+python-pep8:
+  opensuse: [python2-flake8]
+python-pip:
+  opensuse: [python2-pip]
+python-psutil:
+  opensuse: [python2-psutil]
+python-pycryptodome:
+  opensuse: [python2-pycryptodomex]
+python-pydot:
+  opensuse: [python2-pydot]
+python-pygame:
+  opensuse: [python2-pygame-devel]
+python-pygraphviz:
+  opensuse: [python2-pygraphviz]
+python-pymongo:
+  opensuse: [python2-pymongo]
+python-pytest:
+  opensuse: [python2-pytest]
+python-pytest-cov:
+  opensuse: [python2-pytest-cov]
+python-pyudev:
+  opensuse: [python2-pyudev]
+python-qt-bindings:
+  opensuse: [python-qt4-devel]
+python-qt-bindings-gl:
+  opensuse: [python-qt4-devel]
+python-qt5-bindings:
+  opensuse: [python2-qt5-devel, python2-sip-devel]
+python-qt5-bindings-gl:
+  opensuse: [python2-qt5]
+python-qt5-bindings-qsci:
+  opensuse: [python2-qscintilla-qt5]
+python-qt5-bindings-webkit:
+  opensuse: [python2-qt5]
+python-requests:
+  opensuse: [python2-requests]
+python-rosdep:
+  opensuse: [python2-rosdep]
+python-rosdep-modules:
+  opensuse: [python2-rosdep]
+python-rosdistro:
+  opensuse: [python2-rosdistro]
+python-rosinstall:
+  opensuse: [python2-rosinstall]
+python-rosinstall-generator:
+  opensuse: [python2-rosinstall-generator]
+python-rospkg:
+  opensuse: [python2-rospkg]
+python-rospkg-modules:
+  opensuse: [python2-rospkg]
+python-scipy:
+  opensuse: [python-scipy]
+python-serial:
+  opensuse: [python2-pyserial]
+python-setuptools:
+  opensuse: [python2-setuptools]
+python-simplejson:
+  opensuse: [python2-simplejson]
+python-sip:
+  opensuse: [python2-sip-devel]
+python-six:
+  opensuse: [python2-six]
+python-sklearn:
+  opensuse: [python2-scikit-learn]
+python-sphinx:
+  opensuse: [python-Sphinx]
+python-sphinx-rtd-theme:
+  opensuse: [python2-sphinx_rtd_theme]
+python-termcolor:
+  opensuse: [python2-termcolor]
+python-tk:
+  opensuse: [python-tk]
+python-tornado:
+  opensuse: [python2-tornado]
+python-twisted-core:
+  opensuse: [python2-Twisted]
+python-urlgrabber:
+  opensuse: [python-urlgrabber]
+python-usb:
+  opensuse: [python2-usb]
+python-vcstool:
+  opensuse: [python3-vcstool]
+python-vcstools:
+  opensuse: [python2-vcstools]
+python-websocket:
+  opensuse: [python2-websocket-client]
+python-whichcraft:
+  opensuse: [python2-whichcraft]
+python-wstool:
+  opensuse: [python2-wstool]
+python-wxtools:
+  opensuse: [python-wxWidgets-3_0-devel]
+python-yaml:
+  opensuse: [python2-PyYAML]
+python3:
+  opensuse: [python3-devel]
+python3-aiohttp:
+  opensuse: [python-aiohttp]
+python3-alembic:
+  opensuse: [python3-alembic]
+python3-babeltrace:
+  opensuse: [python3-babeltrace]
+python3-backoff-pip:
+  opensuse:
+    pip: {packages: [backoff]}
+python3-bluez:
+  opensuse: [python3-pybluez]
+python3-boto3:
+  opensuse: [python3-boto3]
+python3-bson:
+  opensuse: [python3-bson]
+python3-cairo:
+  opensuse: [python3-cairo]
+python3-cairosvg:
+  opensuse: [python3-CairoSVG]
+python3-catkin-pkg:
+  opensuse: [python3-catkin_pkg]
+python3-catkin-pkg-modules:
+  opensuse: [python3-catkin_pkg]
+python3-chainer-pip:
+  opensuse:
+    pip: {packages: [chainer]}
+python3-coverage:
+  opensuse: [python3-coverage]
+python3-cryptography:
+  opensuse: [python3-cryptography]
+python3-deepdiff:
+  opensuse: [python3-deepdiff]
+python3-defusedxml:
+  opensuse: [python3-defusedxml]
+python3-dev:
+  opensuse: [python3-devel]
+python3-django:
+  opensuse: [python3-Django]
+python3-django-cors-headers:
+  opensuse: [python3-django-cors-headers]
+python3-djangorestframework:
+  opensuse: [python3-djangorestframework]
+python3-docker:
+  opensuse: [python3-docker]
+python3-dubins-pip:
+  opensuse:
+    pip: {packages: [dubins]}
+python3-empy:
+  opensuse: [python3-empy]
+python3-falcon:
+  opensuse: [python3-falcon]
+python3-flake8:
+  opensuse: [python3-flake8]
+python3-flask-jwt-extended:
+  opensuse: [python-flask-jwt-extended]
+python3-gdal:
+  opensuse: [python3-GDAL]
+python3-geographiclib:
+  opensuse: [python3-geographiclib]
+python3-gi-cairo:
+  opensuse: [python3-gobject]
+python3-gnupg:
+  opensuse: [python3-python-gnupg]
+python3-gpxpy:
+  opensuse: [python3-gpxpy]
+python3-interpreter:
+  opensuse: [python3]
+python3-joblib:
+  opensuse: [python3-joblib]
+python3-lxml:
+  opensuse: [python3-lxml]
+python3-matplotlib:
+  opensuse: [python3-matplotlib]
+python3-mlflow:
+  opensuse: [python-mlflow]
+python3-mock:
+  opensuse: [python3-mock]
+python3-mypy:
+  opensuse: [mypy]
+python3-netifaces:
+  opensuse: [python3-netifaces]
+python3-nose:
+  opensuse: [python3-nose]
+python3-numpy:
+  opensuse: [python3-numpy]
+python3-opencv:
+  opensuse: [python3-opencv]
+python3-opengl:
+  opensuse: [python3-opengl]
+python3-pandas:
+  opensuse: [python3-pandas]
+python3-paramiko:
+  opensuse: [python3-paramiko]
+python3-pexpect:
+  opensuse: [python3-pexpect]
+python3-pil:
+  opensuse: [python3-Pillow]
+python3-pip:
+  opensuse: [python3-pip]
+python3-pkg-resources:
+  opensuse: [python3-setuptools]
+python3-ply:
+  opensuse: [python3-ply]
+python3-psutil:
+  opensuse: [python3-psutil]
+python3-pyaudio:
+  opensuse: [python3-PyAudio]
+python3-pycodestyle:
+  opensuse: [python3-pycodestyle]
+python3-pycryptodome:
+  opensuse: [python3-pycryptodomex]
+python3-pydbus:
+  opensuse: [python3-pydbus]
+python3-pydot:
+  opensuse: [python3-pydot]
+python3-pyftpdlib:
+  opensuse: [python3-pyftpdlib]
+python3-pygame:
+  opensuse: [python3-pygame]
+python3-pygit2:
+  opensuse: [python3-pygit2]
+python3-pygments:
+  opensuse: [python3-Pygments]
+python3-pygraphviz:
+  opensuse: [python3-pygraphviz]
+python3-pykdl:
+  opensuse: [python3-pykdl]
+python3-pyparsing:
+  opensuse: [python3-pyparsing]
+python3-pyproj:
+  opensuse: [python3-pyproj]
+python3-pyqt5.qtwebengine:
+  opensuse: [python3-qtwebengine-qt5]
+python3-pytest:
+  opensuse: [python3-pytest]
+python3-pytest-asyncio:
+  opensuse: [python3-pytest-asyncio]
+python3-pytest-mock:
+  opensuse: [python3-pytest-mock]
+python3-pytest-timeout:
+  opensuse: [python3-pytest-timeout]
+python3-pytrinamic-pip:
+  opensuse:
+    pip: {packages: [pytrinamic]}
+python3-qt5-bindings:
+  opensuse: [python3-qt5]
+python3-qt5-bindings-gl:
+  opensuse: [python3-qt5]
+python3-qt5-bindings-webkit:
+  opensuse: [python3-qt5]
+python3-qwt-pip:
+  opensuse:
+    pip: {packages: [PythonQwt]}
+python3-rosdep:
+  opensuse: [python3-rosdep]
+python3-rosdep-modules:
+  opensuse: [python3-rosdep]
+python3-rosinstall-generator:
+  opensuse: [python3-rosinstall-generator]
+python3-rospkg:
+  opensuse: [python3-rospkg]
+python3-rospkg-modules:
+  opensuse: [python3-rospkg]
+python3-schema:
+  opensuse: [python3-schema]
+python3-scipy:
+  opensuse: [python3-scipy]
+python3-scp:
+  opensuse: [python3-scp]
+python3-setuptools:
+  opensuse: [python3-setuptools]
+python3-sila2lib-pip:
+  opensuse:
+    pip: {packages: [sila2lib]}
+python3-simplejson:
+  opensuse: [python3-simplejson]
+python3-sip:
+  opensuse: [python3-sip]
+python3-smbus:
+  opensuse: [python3-smbus]
+python3-sphinx:
+  opensuse: [python3-Sphinx]
+python3-sqlalchemy:
+  opensuse: [python3-SQLAlchemy]
+python3-sqlalchemy-utils:
+  opensuse: [python3-SQLAlchemy-Utils]
+python3-termcolor:
+  opensuse: [python3-termcolor]
+python3-tk:
+  opensuse: [python3-tk]
+python3-tornado:
+  opensuse: [python3-tornado]
+python3-twisted:
+  opensuse: [python3-Twisted]
+python3-vcstool:
+  opensuse: [python3-vcstool]
+python3-venv:
+  opensuse: [python3-virtualenv]
+python3-voluptuous:
+  opensuse: [python-voluptuous]
+python3-websocket:
+  opensuse: [python3-websocket-client]
+python3-whichcraft:
+  opensuse: [python3-whichcraft]
+python3-wrapt:
+  opensuse: [python3-wrapt]
+python3-yaml:
+  opensuse: [python3-PyYAML]
+rpy2:
+  opensuse: [python3-rpy2]
+virtualenv:
+  opensuse: [python2-virtualenv]
+wxpython:
+  opensuse: [python-wxWidgets-3_0-devel]
+yapf:
+  opensuse: [python2-yapf]
