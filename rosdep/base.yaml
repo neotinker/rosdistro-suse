@@ -1,365 +1,75 @@
-alsa-oss:
-  opensuse: [alsa-oss]
-alsa-utils:
-  opensuse: [alsa-utils]
-apr:
-  opensuse: [libapr1, libapr-util1]
-assimp:
-  opensuse: [assimp-devel]
-assimp-dev:
-  opensuse: [assimp-devel]
-autoconf:
-  opensuse: [autoconf]
-automake:
-  opensuse: [automake]
-autossh:
-  opensuse: [autossh]
 avahi-daemon:
   opensuse: [avahi]
 avrdude:
   opensuse: [avrdude]
-bazaar:
-  opensuse: [bzr]
 benchmark:
   opensuse: [benchmark-devel]
 binutils:
   opensuse: [binutils-devel]
 bison:
   opensuse: [bison]
-boost:
-  opensuse: [libboost_atomic1_66_0-devel, libboost_headers1_66_0-devel, libboost_system1_66_0-devel, libboost_thread1_66_0-devel, libboost_chrono1_66_0-devel, libboost_date_time1_66_0-devel, libboost_serialization1_66_0-devel, libboost_filesystem1_66_0-devel, libboost_program_options1_66_0-devel, libboost_python-py2_7-1_66_0-devel, libboost_python-py3-1_66_0-devel, libboost_signals1_66_0-devel, libboost_regex1_66_0-devel, libboost_iostreams1_66_0-devel]
-bullet:
-  opensuse: [libbullet-devel]
-bzip2:
-  opensuse: [libbz2-devel]
-ca-certificates:
-  opensuse: [ca-certificates]
-cargo:
-  opensuse: [cargo]
-chrony:
-  opensuse: [chrony]
 clang:
   opensuse: [clang]
 clang-tidy:
   opensuse: [clang-tools]
-cmake:
-  opensuse: [cmake]
 cppcheck:
   opensuse: [cppcheck]
-cppunit:
-  opensuse: [cppunit-devel]
-curl:
-  opensuse: [libcurl-devel, curl]
-cwiid:
-  opensuse: [libcwiid1]
-cwiid-dev:
-  opensuse: [libcwiid-devel]
-dcraw:
-  opensuse: [dcraw]
-dkms:
-  opensuse: [dkms]
-doxygen:
-  opensuse: [doxygen]
 dpkg:
   opensuse: [dpkg]
-dvipng:
-  opensuse: [texlive-dvipng-bin]
-e2fsprogs:
-  opensuse: [e2fsprogs]
-eigen:
-  opensuse: [eigen3-devel]
-eigen2:
-  opensuse: [libeigen2-devel]
 emacs:
   opensuse: [emacs]
 festival:
   opensuse: [festival]
-ffmpeg:
-  opensuse: [ffmpeg-4-libavcodec-devel, ffmpeg-4-libavdevice-devel, ffmpeg-4-libavfilter-devel, ffmpeg-4-libavformat-devel, ffmpeg-4-libavresample-devel, ffmpeg-4-libavutil-devel, ffmpeg-4-libpostproc-devel, ffmpeg-4-libswresample-devel, ffmpeg-4-libswscale-devel, ffmpeg-4-private-devel]
-flex:
-  opensuse: [flex]
-fltk:
-  opensuse: [fltk-devel]
-fluid:
-  opensuse: [fltk-devel]
 fmt:
   opensuse: [fmt-devel]
-g++-static:
-  opensuse: [gcc-c++, glibc-devel, libstdc++-devel]
 gawk:
   opensuse: [gawk]
-gazebo11:
-  opensuse: [gazebo11]
-gazebo9:
-  opensuse: [gazebo9]
 gfortran:
   opensuse: [gcc11-fortran]
-git:
-  opensuse: [git-core]
-git-lfs:
-  opensuse: [git-lfs]
-glut:
-  opensuse: [freeglut-devel]
-gnome-terminal:
-  opensuse: [gnome-terminal]
 gnuplot:
   opensuse: [gnuplot]
-google-mock:
-  opensuse: [gmock]
-graphviz:
-  opensuse: [graphviz]
-gstreamer1.0:
-  opensuse: [gstreamer]
 gstreamer1.0-alsa:
   opensuse: [gstreamer-plugins-base]
-gstreamer1.0-libav:
-  opensuse: [gstreamer-plugins-libav]
-gstreamer1.0-plugins-bad:
-  opensuse: [gstreamer-plugins-bad]
-gstreamer1.0-plugins-base:
-  opensuse: [gstreamer-plugins-base]
-gstreamer1.0-plugins-good:
-  opensuse: [gstreamer-plugins-good]
-gstreamer1.0-plugins-ugly:
-  opensuse: [gstreamer-plugins-ugly]
-gstreamer1.0-tools:
-  opensuse: [gstreamer-utils]
-gstreamer1.0-x:
-  opensuse: [gstreamer]
-gtest:
-  opensuse: [gtest]
-gtk2:
-  opensuse: [gtk2-devel]
-gtk3:
-  opensuse: [gtk3-devel]
-hddtemp:
-  opensuse: [hddtemp]
-i2c-tools:
-  opensuse: [i2c-tools]
-ifstat:
-  opensuse: [iproute2]
-intltool:
-  opensuse: [intltool]
-inxi:
-  opensuse: [inxi]
-iproute2:
-  opensuse: [iproute2]
-jasper:
-  opensuse: [libjasper-devel]
 java:
   opensuse: [java-1_8_0-openjdk]
-joystick:
-  opensuse: [input-utils]
 jq:
   opensuse: [jq]
-lcov:
-  opensuse: [lcov]
 libavahi-core-dev:
   opensuse: [libavahi-devel]
 libblas-dev:
   opensuse: [blas-devel]
-libboost-atomic:
-  opensuse: [libboost_atomic1_66_0]
-libboost-atomic-dev:
-  opensuse: [libboost_atomic1_66_0-devel]
-libboost-chrono:
-  opensuse: [libboost_chrono1_66_0]
-libboost-chrono-dev:
-  opensuse: [libboost_chrono1_66_0-devel]
-libboost-date-time:
-  opensuse: [libboost_date_time1_66_0]
-libboost-date-time-dev:
-  opensuse: [libboost_date_time1_66_0-devel]
-libboost-dev:
-  opensuse: [libboost_headers1_66_0-devel]
-libboost-filesystem:
-  opensuse: [libboost_filesystem1_66_0]
-libboost-filesystem-dev:
-  opensuse: [libboost_filesystem1_66_0-devel]
-libboost-iostreams:
-  opensuse: [libboost_iostreams1_66_0]
-libboost-iostreams-dev:
-  opensuse: [libboost_iostreams1_66_0-devel]
-libboost-math:
-  opensuse: [libboost_math1_66_0]
-libboost-math-dev:
-  opensuse: [libboost_math1_66_0-devel]
-libboost-numpy-dev:
-  opensuse: [libboost_numpy-py2_7-1_66_0, libboost_numpy-py3-1_66_0]
-libboost-program-options:
-  opensuse: [libboost_program_options1_66_0]
-libboost-program-options-dev:
-  opensuse: [libboost_program_options1_66_0-devel]
-libboost-python:
-  opensuse: [libboost_python-py2_7-1_66_0, libboost_python-py3-1_66_0]
-libboost-python-dev:
-  opensuse: [libboost_python-py2_7-1_66_0-devel, libboost_python-py3-1_66_0-devel]
-libboost-random:
-  opensuse: [libboost_random1_66_0]
-libboost-random-dev:
-  opensuse: [libboost_random1_66_0-devel]
-libboost-regex:
-  opensuse: [libboost_regex1_66_0]
-libboost-regex-dev:
-  opensuse: [libboost_regex1_66_0-devel]
-libboost-serialization:
-  opensuse: [libboost_serialization1_66_0]
-libboost-serialization-dev:
-  opensuse: [libboost_serialization1_66_0-devel]
-libboost-system:
-  opensuse: [libboost_system1_66_0]
-libboost-system-dev:
-  opensuse: [libboost_system1_66_0-devel]
-libboost-thread:
-  opensuse: [libboost_thread1_66_0]
-libboost-thread-dev:
-  opensuse: [libboost_thread1_66_0-devel]
-libboost-timer:
-  opensuse: [libboost_timer1_66_0]
-libboost-timer-dev:
-  opensuse: [libboost_timer1_66_0-devel]
-libcairo2-dev:
-  opensuse: [cairo-devel]
-libcap-dev:
-  opensuse: [libcap-devel]
 libceres-dev:
   opensuse: [libceres-devel]
-libconsole-bridge-dev:
-  opensuse: [libconsole_bridge0_4]
-libcurl:
-  opensuse: [curl]
-libcurl-dev:
-  opensuse: [libcurl-devel]
-libdw-dev:
-  opensuse: [libdw-devel]
-libext2fs-dev:
-  opensuse: [libext2fs-devel]
-libfcl-dev:
-  opensuse: [fcl-devel]
 libfftw3:
   opensuse: [fftw3, fftw3-devel]
-libfl-dev:
-  opensuse: [libfl-devel]
-libfltk-dev:
-  opensuse: [fltk-devel]
-libftdi-dev:
-  opensuse: [libftdi1-devel]
-libgazebo11-dev:
-  opensuse: [gazebo11-devel]
-libgazebo7-dev:
-  opensuse: [gazebo-devel]
-libgazebo9-dev:
-  opensuse: [gazebo9-devel]
-libgdal-dev:
-  opensuse: [gdal-devel]
 libgeos++-dev:
   opensuse: [geos-devel]
-libgflags-dev:
-  opensuse: [gflags-devel]
-libglew-dev:
-  opensuse: [glew-devel]
-libgmock-dev:
-  opensuse: [gmock-devel]
-libgnutls28-dev:
-  opensuse: [libgnutls-devel]
-libgoogle-glog-dev:
-  opensuse: [glog-devel]
-libgpgme-dev:
-  opensuse: [libgpgme-devel]
 libgphoto-dev:
   opensuse: [libgphoto2-devel]
-libgpiod-dev:
-  opensuse: [libgpiod-devel]
-libgps:
-  opensuse: [gpsd-devel]
 libgsl:
   opensuse: [gsl-devel]
-libgstreamer-plugins-base1.0-dev:
-  opensuse: [gstreamer-plugins-base-devel]
-libgstreamer1.0-dev:
-  opensuse: [gstreamer-devel]
 libhdf5-dev:
   opensuse: [hdf5-devel]
-libjpeg:
-  opensuse: [libjpeg8-devel]
-libjsoncpp:
-  opensuse: [libjsoncpp19]
-libjsoncpp-dev:
-  opensuse: [jsoncpp-devel]
-liblapack-dev:
-  opensuse: [lapack-devel]
 libmicrohttpd:
   opensuse: [libmicrohttpd-devel]
-libmnl-dev:
-  opensuse: [libmnl-devel]
-libmysqlclient-dev:
-  opensuse: [libmysqlclient-devel]
-libmysqlcppconn-dev:
-  opensuse: [libmysqlcppconn-devel]
 libncurses-dev:
   opensuse: [ncurses-devel]
 libnlopt-dev:
   opensuse: [nlopt-devel]
-libogg:
-  opensuse: [libogg-devel]
 libogre:
-  opensuse: [libOgreMain-devel, libOgreOverlay-devel, libOgrePaging-devel, libOgreProperty-devel, libOgreRTShaderSystem-devel, libOgreTerrain-devel, libOgreVolume-devel]
-libogre-dev:
   opensuse: [libOgreMain-devel, libOgreOverlay-devel, libOgrePaging-devel, libOgreProperty-devel, libOgreRTShaderSystem-devel, libOgreTerrain-devel, libOgreVolume-devel]
 libomp-dev:
   opensuse: [libomp11-devel]
 libopenblas-dev:
   opensuse: [openblas-devel]
-libopencv-dev:
-  opensuse: [opencv-devel]
 libopenexr-dev:
   opensuse: [openexr-devel]
-libopenscenegraph:
-  opensuse: [OpenSceneGraph, libOpenSceneGraph-devel, libOpenThreads-devel]
-liborocos-kdl:
-  opensuse: [liborocos-kdl1_5]
-liborocos-kdl-dev:
-  opensuse: [orocos-kdl-devel]
 libpcap:
   opensuse: [libpcap-devel]
-libpcl-all:
-  opensuse: [libpcl1.9, pcl-tools]
-libpcl-all-dev:
-  opensuse: [pcl-devel]
-libpng-dev:
-  opensuse: [libpng16-devel, libpng16-compat-devel]
-libpng12-dev:
-  opensuse: [libpng12-devel]
-libpoco-dev:
-  opensuse: [poco-devel]
 libpulse-dev:
   opensuse: [libpulse-devel]
-libqhull:
-  opensuse: [qhull-devel]
-libqt4:
-  opensuse: [libqt4]
-libqt4-dev:
-  opensuse: [libqt4-devel]
-libqt4-opengl-dev:
-  opensuse: [libqt4-devel]
-libqt5-concurrent:
-  opensuse: [libQt5Concurrent5]
-libqt5-core:
-  opensuse: [libQt5Core5]
-libqt5-gui:
-  opensuse: [libQt5Gui5]
-libqt5-network:
-  opensuse: [libQt5Network5]
-libqt5-opengl:
-  opensuse: [libQt5OpenGL5]
-libqt5-opengl-dev:
-  opensuse: [libQt5OpenGL-devel]
-libqt5-svg-dev:
-  opensuse: [libqt5-qtsvg-devel]
 libqt5-websockets-dev:
   opensuse: [libqt5-qtwebsockets-devel]
-libqt5-widgets:
-  opensuse: [libQt5Widgets5]
 libqt5-xml:
   opensuse: [libQt5Xml5]
 libqt5x11extras5-dev:
@@ -370,211 +80,63 @@ libraw1394-dev:
   opensuse: [libraw1394-devel]
 libreadline-dev:
   opensuse: [readline-devel]
-libsensors4-dev:
-  opensuse: [libsensors4-devel]
 libspnav-dev:
   opensuse: [libspnav-devel, libX11-devel]
 libsqlite3-dev:
   opensuse: [sqlite3-devel]
-libssl-dev:
-  opensuse: [libopenssl-devel]
-libstdc++5:
-  opensuse: [libstdc++33]
-libtheora:
-  opensuse: [libtheora-devel]
-libtiff-dev:
-  opensuse: [libtiff-devel]
-libtins-dev:
-  opensuse: [libtins-devel]
-libtool:
-  opensuse: [libtool, libltdl7]
-libturbojpeg:
-  opensuse: [libturbojpeg0, libjpeg8-devel]
-liburdfdom-dev:
-  opensuse: [urdfdom-devel]
-liburdfdom-headers-dev:
-  opensuse: [urdfdom_headers-devel]
-liburdfdom-tools:
-  opensuse: [urdfdom]
-libusb-1.0:
-  opensuse: [libusb-1_0-0]
-libusb-1.0-dev:
-  opensuse: [libusb-1_0-devel]
-libusb-dev:
-  opensuse: [libusb-1_0-devel]
-libv4l-dev:
-  opensuse: [libv4l-devel]
-libvlc:
-  opensuse: [libvlc5, vlc-noX]
-libvlc-dev:
-  opensuse: [vlc-devel]
-libvlccore-dev:
-  opensuse: [vlc-devel]
-libvtk:
-  opensuse: [vtk-devel]
-libvtk-java:
-  opensuse: [vtk-java]
-libvtk-qt:
-  opensuse: [vtk-qt]
-libwebsockets-dev:
-  opensuse: [libwebsockets-devel]
-libx11:
-  opensuse: [libX11-6]
-libx11-dev:
-  opensuse: [libX11-devel]
-libxaw:
-  opensuse: [xorg-x11-devel]
-libxext:
-  opensuse: [xorg-x11-libXext-devel]
-libxml2:
-  opensuse: [libxml2-devel]
 libxmlrpc-c++:
   opensuse: [xmlrpc-c-devel]
 libxmu-dev:
   opensuse: [libXmu-devel]
-libxxf86vm:
-  opensuse: [xorg-x11-devel]
-libzmq3-dev:
-  opensuse: [zeromq-devel]
 linux-kernel-headers:
   opensuse: [kernel-devel]
 lm-sensors:
   opensuse: [sensors]
 log4cplus:
   opensuse: [log4cplus-devel]
-log4cxx:
-  opensuse: [liblog4cxx-devel]
 lua5.2-dev:
   opensuse: [lua53-devel]
-lz4:
-  opensuse: [liblz4-devel]
-m4:
-  opensuse: [m4]
-mercurial:
-  opensuse: [mercurial]
 msgpack:
   opensuse: [msgpack-devel]
-msr-tools:
-  opensuse: [msr-tools]
-muparser:
-  opensuse: [muparser-devel]
-nasm:
-  opensuse: [nasm]
-netpbm:
-  opensuse: [libnetpbm-devel]
-network-manager:
-  opensuse: [NetworkManager]
 nkf:
   opensuse: [nkf]
 npm:
   opensuse: [npm-default]
 opencl-headers:
   opensuse: [opencl-headers]
-opengl:
-  opensuse: [Mesa-devel]
-openssl:
-  opensuse: [openssl]
-pkg-config:
-  opensuse: [pkg-config]
 postgresql:
   opensuse: [postgresql-server, postgresql-contrib]
 procps:
   opensuse: [procps]
-proj:
-  opensuse: [proj]
-protobuf:
-  opensuse: [libprotobuf9]
-protobuf-dev:
-  opensuse: [protobuf-devel]
 pugixml-dev:
   opensuse: [pugixml-devel]
 python-dev:
   opensuse: [python-devel]
-qt4-dev-tools:
-  opensuse: [libqt4-devel-doc]
-qt4-qmake:
-  opensuse: [libqt4-devel]
-qt5-qmake:
-  opensuse: [libqt5-qtbase-common-devel]
-qtbase5-dev:
-  opensuse: [libqt5-qtbase-common-devel, libqt5-qtbase-devel]
 qtmultimedia5-dev:
   opensuse: [libqt5-qtmultimedia-devel]
-rsync:
-  opensuse: [rsync]
-rustc:
-  opensuse: [rust]
-sbcl:
-  opensuse: [sbcl]
-scons:
-  opensuse: [scons]
-sdl:
-  opensuse: [libSDL-devel]
-sdl-image:
-  opensuse: [libSDL_image-devel]
 sshpass:
   opensuse: [sshpass]
-subversion:
-  opensuse: [subversion]
-suitesparse:
-  opensuse: [suitesparse-devel]
 swig:
   opensuse: [swig]
 sysstat:
   opensuse: [sysstat]
-systemd:
-  opensuse: [systemd]
-tango-icon-theme:
-  opensuse: [tango-icon-theme]
-tar:
-  opensuse: [libtar-devel]
-tbb:
-  opensuse: [tbb-devel]
-texlive-latex-base:
-  opensuse: [texlive-latex, texlive-parskip]
-texlive-latex-extra:
-  opensuse: [texlive-titlesec, texlive-wrapfig, texlive-multirow, texlive-fancybox]
-texlive-latex-recommended:
-  opensuse: [texlive-framed, texlive-threeparttable, texlive-ec, texlive-mdwtools]
-time:
-  opensuse: [time]
-tinyxml:
-  opensuse: [tinyxml-devel]
-tinyxml2:
-  opensuse: [tinyxml2-devel]
 udev:
   opensuse: [systemd]
-unzip:
-  opensuse: [unzip]
 usbutils:
   opensuse: [usbutils]
 util-linux:
   opensuse: [util-linux]
-uuid:
-  opensuse: [libuuid-devel]
 v4l-utils:
   opensuse: [v4l-utils]
 vlc:
   opensuse: [vlc]
-wget:
-  opensuse: [wget]
-wmctrl:
-  opensuse: [wmctrl]
 wx-common:
   opensuse: [wxGTK3-3_2-devel]
-wxwidgets:
-  opensuse: [wxGTK-devel]
 xfonts-75dpi:
   opensuse: [xorg-x11-fonts-legacy]
 xterm:
   opensuse: [xterm]
 xvfb:
   opensuse: [xorg-x11-server]
-yaml-cpp:
-  opensuse: [yaml-cpp-devel]
 zbar:
   opensuse: [zbar, libzbar-devel]
-zlib:
-  opensuse: [zlib-devel]
-zziplib:
-  opensuse: [zziplib-devel]
