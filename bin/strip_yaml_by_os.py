@@ -5,7 +5,7 @@ with open(sys.argv[1], 'r') as file:
 def is_number(s):
   if type(s) in [float, int, complex]:
     return True
-  if s.is_numeric():
+  if s.isnumeric():
     return True
   else:
     try:
@@ -15,23 +15,23 @@ def is_number(s):
       return False
 
 
+selected_os = "opensuse"
+
 newyd = {}
 for item in yd:
-  if 'opensuse' in yd[item]:
+  if selected_os in yd[item]:
     newyd[item] = {}
-    if isinstance(yd[item]['opensuse'],dict):
-      newyd[item]['opensuse'] = {}
-      newyd[item]['opensuse'] = yd[item]['opensuse']
+    if isinstance(yd[item][selected_os],dict):
+      newyd[item][selected_os] = {}
+      newyd[item][selected_os] = yd[item][selected_os]
       print('{}:'.format(item))
-      print('  opensuse:')
-      for release in yd[item]['opensuse']:
+      print('  {}:'.format(selected_os))
+      for release in yd[item][selected_os]:
         if is_number(release):
-          print('    \'{}\': {}'.format(release,yaml.dump(newyd[item]['opensuse'][release], default_flow_style=True, width=2147483647)),end='')
+          print('    \'{}\': {}'.format(release,yaml.dump(newyd[item][selected_os][release], default_flow_style=True, width=2147483647)),end='')
         else:
-          print('    {}: {}'.format(release,yaml.dump(newyd[item]['opensuse'][release], default_flow_style=True, width=2147483647)),end='')
+          print('    {}: {}'.format(release,yaml.dump(newyd[item][selected_os][release], default_flow_style=True, width=2147483647)),end='')
     else:
-      newyd[item]['opensuse'] = yd[item]['opensuse']
+      newyd[item][selected_os] = yd[item][selected_os]
       print('{}:'.format(item))
-      print('  opensuse: {}'.format(yaml.dump(newyd[item]['opensuse'], default_flow_style=True, width=2147483647)),end='')
-#print(newyd)
-#print(yaml.dump(newyd, default_flow_style=True))
+      print('  {}: {}'.format(selected_os, yaml.dump(newyd[item][selected_os], default_flow_style=True, width=2147483647)),end='')
