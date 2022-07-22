@@ -2,6 +2,6 @@
 
 # These files are meant to contain updated keys that have not yet been accepted upstream
 # These are meant to be temporary
-yaml https://raw.githubusercontent.com/neotinker/rosdistro-suse/temp/base.yaml
-yaml https://raw.githubusercontent.com/neotinker/rosdistro-suse/temp/python.yaml
-yaml https://raw.githubusercontent.com/neotinker/rosdistro-suse/temp/ruby.yaml
+yaml https://raw.githubusercontent.com/neotinker/rosdistro-suse/temp/rosdep/base.yaml
+yaml https://raw.githubusercontent.com/neotinker/rosdistro-suse/temp/rosdep/python.yaml
+yaml https://raw.githubusercontent.com/neotinker/rosdistro-suse/temp/rosdep/ruby.yaml
