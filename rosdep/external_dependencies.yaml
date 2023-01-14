@@ -2,6 +2,8 @@ gazebo11:
   opensuse: [gazebo11]
 gazebo9:
   opensuse: [gazebo9]
+ignition-cmake2:
+  opensuse: [ignition-cmake2]
 ignition-math6:
   opensuse: [ignition-math6-devel]
 libconsole-bridge-dev:
