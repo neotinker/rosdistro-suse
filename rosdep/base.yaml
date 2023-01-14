@@ -120,6 +120,8 @@ python-dev:
   opensuse: [python-devel]
 qtmultimedia5-dev:
   opensuse: [libqt5-qtmultimedia-devel]
+spdlog:
+  opensuse: [spdlog-devel]
 sshpass:
   opensuse: [sshpass]
 swig:
