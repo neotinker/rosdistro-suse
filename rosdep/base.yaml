@@ -96,6 +96,8 @@ libsqlite3-dev:
   opensuse: [sqlite3-devel]
 libxmlrpc-c++:
   opensuse: [xmlrpc-c-devel]
+libxml2-utils:
+  opensuse: [libxml2-tools]
 libxmu-dev:
   opensuse: [libXmu-devel]
 libzstd-dev:
