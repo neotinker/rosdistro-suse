@@ -126,6 +126,8 @@ procps:
   opensuse: [procps]
 pugixml-dev:
   opensuse: [pugixml-devel]
+pybind11-dev:
+  opensuse: [python3-pybind11-devel]
 python-dev:
   opensuse: [python-devel]
 qtmultimedia5-dev:
