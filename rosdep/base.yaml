@@ -100,6 +100,8 @@ libxml2-utils:
   opensuse: [libxml2-tools]
 libxmu-dev:
   opensuse: [libXmu-devel]
+libxrandr:
+  opensuse: [libXrandr-devel]
 libzstd-dev:
   opensuse: [libzstd-devel]
 linux-kernel-headers:
