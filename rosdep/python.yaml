@@ -64,6 +64,8 @@ python3-pygame:
   opensuse: [python3-pygame]
 python3-pyproj:
   opensuse: [python3-pyproj]
+python3-pytest-cov:
+  opensuse: [python3-pytest-cov]
 python3-qt5-bindings:
   opensuse: 
     '*': [python3-qt5-devel, python3-sip4-devel]
