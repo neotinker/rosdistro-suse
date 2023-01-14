@@ -98,6 +98,8 @@ libxmlrpc-c++:
   opensuse: [xmlrpc-c-devel]
 libxmu-dev:
   opensuse: [libXmu-devel]
+libzstd-dev:
+  opensuse: [libzstd-devel]
 linux-kernel-headers:
   opensuse: [kernel-devel]
 lm-sensors:
