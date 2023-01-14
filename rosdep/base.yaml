@@ -160,5 +160,7 @@ xterm:
   opensuse: [xterm]
 xvfb:
   opensuse: [xorg-x11-server]
+yaml:
+  opensuse: [libyaml-devel]
 zbar:
   opensuse: [zbar, libzbar-devel]
