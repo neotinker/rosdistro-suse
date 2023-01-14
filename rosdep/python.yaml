@@ -54,6 +54,8 @@ python-usb:
   opensuse: [python2-usb]
 python-whichcraft:
   opensuse: [python2-whichcraft]
+python3-argcomplete:
+  opensuse: [python3-argcomplete]
 python3-bluez:
   opensuse: [python3-pybluez]
 python3-bson:
