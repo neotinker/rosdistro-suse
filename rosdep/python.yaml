@@ -54,6 +54,8 @@ python3-bluez:
   opensuse: [python3-pybluez]
 python3-bson:
   opensuse: [python3-bson]
+python3-importlib-metadata:
+  opensuse: [python3-importlib-metadata]
 python3-pygame:
   opensuse: [python3-pygame]
 python3-pyproj:
