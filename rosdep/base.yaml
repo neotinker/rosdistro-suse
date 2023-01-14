@@ -40,6 +40,8 @@ java:
   opensuse: [java-1_8_0-openjdk]
 jq:
   opensuse: [jq]
+libatomic:
+  opensuse: [libatomic1]
 libavahi-core-dev:
   opensuse: [libavahi-devel]
 libblas-dev:
