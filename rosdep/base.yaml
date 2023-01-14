@@ -1,3 +1,5 @@
+asio:
+  opensuse: [asio-devel]
 avahi-daemon:
   opensuse: [avahi]
 avrdude:
