@@ -46,6 +46,8 @@ libblas-dev:
   opensuse: [blas-devel]
 libceres-dev:
   opensuse: [libceres-devel]
+libcunit-dev:
+  opensuse: [cunit-devel]
 libfftw3:
   opensuse: [fftw3, fftw3-devel]
 libgeos++-dev:
