@@ -56,6 +56,8 @@ libcunit-dev:
   opensuse: [cunit-devel]
 libfftw3:
   opensuse: [fftw3, fftw3-devel]
+libfreetype6:
+  opensuse: [libfreetype6]
 libfreetype6-dev:
   opensuse: [freetype2-devel]
 libgeos++-dev:
