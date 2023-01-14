@@ -4,6 +4,8 @@ cython3:
   opensuse: [python3-Cython]
 pydocstyle:
   opensuse: [python3-pydocstyle]
+pyflakes3:
+  opensuse: [python3-pyflakes]
 python-bluez:
   opensuse: [python2-pybluez]
 python-bson:
