@@ -13,7 +13,7 @@ python-rosdistro:
 python-rosinstall:
   opensuse: [python2-rosinstall]
 python-rosinstall-generator:
-  opensuse: [python2-rosinstall-generator]
+  opensuse: [python2-rosinstall_generator]
 python-rospkg:
   opensuse: [python2-rospkg]
 python-rospkg-modules:
