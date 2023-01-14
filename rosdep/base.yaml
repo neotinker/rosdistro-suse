@@ -138,6 +138,8 @@ sysstat:
   opensuse: [sysstat]
 udev:
   opensuse: [systemd]
+uncrustify:
+  opensuse: [uncrustify]
 usbutils:
   opensuse: [usbutils]
 util-linux:
