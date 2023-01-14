@@ -26,6 +26,8 @@ emacs:
   opensuse: [emacs]
 festival:
   opensuse: [festival]
+file:
+  opensuse: [file]
 fmt:
   opensuse: [fmt-devel]
 gawk:
