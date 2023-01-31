@@ -146,6 +146,8 @@ sdl2-image:
   opensuse: [libSDL2_image-devel]
 sdl2-mixer:
   opensuse: [libSDL2_mixer-devel]
+sdl2-ttf:
+  opensuse: [libSDL2_ttf-devel]
 spdlog:
   opensuse: [spdlog-devel]
 sshpass:
