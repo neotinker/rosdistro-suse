@@ -140,6 +140,8 @@ python-dev:
   opensuse: [python-devel]
 qtmultimedia5-dev:
   opensuse: [libqt5-qtmultimedia-devel]
+sdl2:
+  opensuse: [libSDL2-devel]
 spdlog:
   opensuse: [spdlog-devel]
 sshpass:
