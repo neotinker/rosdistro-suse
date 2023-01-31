@@ -142,6 +142,8 @@ qtmultimedia5-dev:
   opensuse: [libqt5-qtmultimedia-devel]
 sdl2:
   opensuse: [libSDL2-devel]
+sdl2-image:
+  opensuse: [libSDL2_image-devel]
 spdlog:
   opensuse: [spdlog-devel]
 sshpass:
