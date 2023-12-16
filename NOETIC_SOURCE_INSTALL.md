@@ -1,6 +1,6 @@
 NOETIC SOURCE INSTALLATION
 
-Currently, we are only building for openSUSE/SLES 15.3 and can only build some of the metapackages (https://github.com/ros/metapackages).
+Currently, we are building for openSUSE/SLES 15.3 & 15.4 and can only build some of the metapackages (https://github.com/ros/metapackages).
 
 	We are able to build the following metapackages:
 	  ros_core
