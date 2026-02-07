@@ -15,6 +15,8 @@ This git repository is intended to fill the gap between ROS and SUSE. It holds a
                                 to simplify pushing updates upstream.
 
 #### Infrastructure and External Dependencies
+These files point to the ros-infrastructure.yaml and external_dependencies.yaml files
+
 - 10-suse.list.development - Future development testing. To be used in conjuncture with the 20-default.list provided by ROS.
 - 10-suse.list.master - Production source.list file. To be used in conjuncture with the 20-default.list provided by ROS.
 
