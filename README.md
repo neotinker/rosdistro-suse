@@ -4,6 +4,7 @@ This git repository is intended to fill the gap between ROS and SUSE. It holds a
 
 ## "ros_external_extras_suse" - This directory contains alternate source.list files
   (This directory gets packaged by OBS separately from the rest of this repostory.)
+
   Look for the "ros_external_extras_suse" package in the "External Dependencies" project for the ROS version you want to run.
 
 - 20-default.list.build_test - original development testing config for ROS Melodic on openSUSE/SLES (Deprecated)
