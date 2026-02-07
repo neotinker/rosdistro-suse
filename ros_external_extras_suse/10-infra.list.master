@@ -1,0 +1,6 @@
+# SUSE specific configuration
+
+# There are some requirements that are not a part of openSUSE/SLES and are provided by unofficial repositories.
+# We will keep them seperate to prevent them from accidentally getting merged upstream.
+yaml https://raw.githubusercontent.com/neotinker/rosdistro-suse/master/rosdep/ros-infrastructure.yaml
+yaml https://raw.githubusercontent.com/neotinker/rosdistro-suse/master/rosdep/external_dependencies.yaml
