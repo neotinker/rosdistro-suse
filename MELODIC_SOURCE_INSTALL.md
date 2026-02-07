@@ -9,9 +9,9 @@ https://github.com/ros/metapackages.
 
 I have created two projects in the OpenSUSE Build Service, "ROS:External_Dependencies" and "ROS:ros-infrastructure". The "ROS:ros-infrastructure" project contains builds of the ROS tools needed to start building ROS applications. The "ROS:External_Dependencies" project is where I am maintaining builds of any ROS dependencies which don't exist in either openSUSE or SLES.
 
-https://build.opensuse.org/project/show/home:neotinker3:ROS:ros-infrastructure
+https://build.opensuse.org/project/show/home:neotinker3:ROS:ROS1:ros-infrastructure
 
-https://build.opensuse.org/project/show/home:neotinker3:ROS:External_Dependencies
+https://build.opensuse.org/project/show/home:neotinker3:ROS:ROS1:melodic:external_dependencies
 
 Currently, I am maintaining my own rosdistro with custom modifications for Opensuse Leap and SLES at https://github.com/neotinker/rosdistro. You must use the "build_test" branch to get functional dependencies. I'm in the process of pushing these upstream to ros/rosdistro.
 
