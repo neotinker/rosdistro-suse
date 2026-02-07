@@ -21,8 +21,20 @@ external_dependencies.yaml - Contains package lookups for packages in the Extern
 # INDEX
 
 "ROS Infrastructure" - These are the tools needed to build ROS.
- https://build.opensuse.org/project/show/home:neotinker3:ROS:ros-infrastructure
+
+ ROS1
+ https://build.opensuse.org/project/show/home:neotinker3:ROS:ROS1:ros-infrastructure
+
+ ROS2 - In development
+ https://build.opensuse.org/project/show/home:neotinker3:ROS:ROS2:ros-infrastructure:testing
 
 "External Dependencies" - These are dependencies that are needed to build ROS packages.
- https://build.opensuse.org/project/show/home:neotinker3:ROS:External_Dependencies
 
+ ROS1 Noetic
+ https://build.opensuse.org/project/show/home:neotinker3:ROS:ROS1:noetic:external_dependencies
+
+ ROS1 Melodic
+ https://build.opensuse.org/project/show/home:neotinker3:ROS:ROS1:melodic:external_dependencies
+
+ ROS2 - In development
+ https://build.opensuse.org/project/show/home:neotinker3:ROS:ROS2:external_dependencies:testing
