@@ -7,18 +7,30 @@ This git repository is intended to fill the gap between ROS and SUSE. It holds a
 
   Look for the "ros_external_extras_suse" package in the "External Dependencies" project for the ROS version you want to run.
 
-#### These replace the "20-default.list" provided the ROS project
-- 20-default.list.build_test - original development testing config for ROS Melodic on openSUSE/SLES (Deprecated)
-- 20-default.list.devel-testing - Current development testing config for ROS Melodic and Noetic
-- 20-default.list.development - Future development testing config for ROS Melodic and Noetic (switching soon)
-                                We've broken packages out from rosdep/{base,ruby,python}.yaml that can't be upstreamed
-                                to simplify pushing updates upstream.
-
 #### Infrastructure and External Dependencies
-These files point to the ros-infrastructure.yaml and external_dependencies.yaml files
+These files point to the ros-infrastructure.yaml and external_dependencies.yaml files.
 
-- 10-suse.list.development - Future development testing. To be used in conjuncture with the 20-default.list provided by ROS.
-- 10-suse.list.master - Production source.list file. To be used in conjuncture with the 20-default.list provided by ROS.
+These are manditory
+
+- 10-infra.list.master - Production source.list file. To be used in conjuncture with the 20-default.list provided by ROS.
+- 10-infra.list.development - Development source.list file. To be used in conjuncture with the 20-default.list provided by ROS.
+- 10-suse.list.master - Production file. To be used in conjuncture with the 20-default.list provided by ROS. (Deprecated)
+- 10-suse.list.development - development testing. To be used in conjuncture with the 20-default.list provided by ROS. (Deprecated)
+
+#### "Temp" list
+
+This file is used during fast development cycles. You should never need to use this file. It's contents get merged into "20-default.list" and pushed upstream to ros/rosdistro.
+
+- 15-temp.list
+- 15-suse-temp.list (Deprecated)
+
+#### These replace the "20-default.list" provided the ROS project
+
+You only need to use these for testing what is being merged upstream before we open a pull request to ros/rosdistro.
+
+- 20-default.list.build_test - development testing config for ROS Melodic on openSUSE/SLES (Deprecated)
+- 20-default.list.devel-testing - development testing config for ROS Melodic and Noetic (Deprecated)
+- 20-default.list.development - development testing config for ROS Melodic and Noetic (Deprecated)
 
 ## Custom Rosdep files - These contain package lookups that we can't upstream.
 ros-infrastructure.yaml - Contains package lookups for packages in the ROS Infrastructure repository.
