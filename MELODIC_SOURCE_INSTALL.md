@@ -1,20 +1,24 @@
-MELODIC SOURCE INSTALLATION
+# MELODIC SOURCE INSTALLATION
 
-PREAMBLE
-	Currently, we *CAN* build all the metapackage variants for Opensuse 15.1, 15.2, and 15.3 (x86_64). We can also build all the metapackages for SLES 15 SP3. We are missing some graphics libraries on other architectures, at the moment.
+### I'm keeping and cleaning up this document for historical purposes but you probably shouldnt use it
+
+## PREAMBLE
+Currently, we *CAN* build all the metapackage variants for Opensuse 15.1, 15.2, and 15.3 (x86_64). We can also build all the metapackages for SLES 15 SP3. We are missing some graphics libraries on other architectures, at the moment.
+
 https://github.com/ros/metapackages.
 
-	I have created two projects in the OpenSUSE Build Service, "ROS:External_Dependencies" and "ROS:ros-infrastructure". The "ROS:ros-infrastructure" project contains builds of the ROS tools needed to start building ROS applications. The "ROS:External_Dependencies" project is where I am maintaining builds of any ROS dependencies which don't exist in either openSUSE or SLES.
+I have created two projects in the OpenSUSE Build Service, "ROS:External_Dependencies" and "ROS:ros-infrastructure". The "ROS:ros-infrastructure" project contains builds of the ROS tools needed to start building ROS applications. The "ROS:External_Dependencies" project is where I am maintaining builds of any ROS dependencies which don't exist in either openSUSE or SLES.
 
 https://build.opensuse.org/project/show/home:neotinker3:ROS:ros-infrastructure
+
 https://build.opensuse.org/project/show/home:neotinker3:ROS:External_Dependencies
 
 Currently, I am maintaining my own rosdistro with custom modifications for Opensuse Leap and SLES at https://github.com/neotinker/rosdistro. You must use the "build_test" branch to get functional dependencies. I'm in the process of pushing these upstream to ros/rosdistro.
 
-GOAL
+## GOAL
 The goal is to be able to follow the Installing from Source Wiki ( http://wiki.ros.org/melodic/Installation/Source ) but there are currently a few differences. I've broken out the steps that are different below.
 
-For section 1.1, "Installing bootstrap dependencies"
+### For section 1.1, "Installing bootstrap dependencies"
 
 1) Install the "ros-infrastructure" and "External Dependiencies" repos for your OS. You may need extra extensions/modules installed for SLES. The example below is for openSUSE 15.1. Replace "openSUSE_Leap_15.1" with the appropriate OS name and version.
 
@@ -36,7 +40,7 @@ $ sudo zypper in ros_external_extras_suse
 
 You will most likely encounter a conflict between Poco and vtk due to the use of unixODBC and iodbc. I've included a version of Poco in the "External Dependency" repo that is build against iodbc. You may need to force the install of libiodbc-devel (from the OS) and poco-devel (from "External Dependencies). This will most likely pull in a few hundred packages.
 
-For section 1.2, "Initializing rosdep"
+### For section 1.2, "Initializing rosdep"
 
 1) Initialize rosdep sources
 
@@ -53,9 +57,10 @@ $ sudo cp /usr/share/ros/20-default.list.build_test /etc/ros/rosdep/sources.list
 
 $ rosdep update
 
-Follow sections 2 through 2.1.1 as specified in the source install wiki. Before you run the "vcs import src" command, you need to make sure the "src" directory exists. If any thing else doesn't work, let me know.
+### Follow sections 2 through 2.1.1 as specified in the source install wiki.
+Before you run the "vcs import src" command, you need to make sure the "src" directory exists. If any thing else doesn't work, let me know.
 
-For section 2.1.2, "Building the catkin Workspace"
+### For section 2.1.2, "Building the catkin Workspace"
 
 1) Force catkin_make_isolated to use python 2.7
 
@@ -65,6 +70,7 @@ $ ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release -DP
 
 I'll try to keep this description updated with what is working. And this description should shrink as I resolve pending issues.
 
-See also
+## See also
 https://github.com/ros-infrastructure
+
 https://github.com/ros/rosdistro
