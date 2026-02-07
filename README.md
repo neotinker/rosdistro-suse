@@ -7,13 +7,16 @@ This git repository is intended to fill the gap between ROS and SUSE. It holds a
 
   Look for the "ros_external_extras_suse" package in the "External Dependencies" project for the ROS version you want to run.
 
+#### These replace the "20-default.list" provided the ROS project
 - 20-default.list.build_test - original development testing config for ROS Melodic on openSUSE/SLES (Deprecated)
 - 20-default.list.devel-testing - Current development testing config for ROS Melodic and Noetic
 - 20-default.list.development - Future development testing config for ROS Melodic and Noetic (switching soon)
                                 We've broken packages out from rosdep/{base,ruby,python}.yaml that can't be upstreamed
                                 to simplify pushing updates upstream.
+
+#### Infrastructure and External Dependencies
 - 10-suse.list.development - Future development testing. To be used in conjuncture with the 20-default.list provided by ROS.
-- 10-suse.list.master - Future production source.list file. To be used in conjuncture with the 20-default.list provided by ROS.
+- 10-suse.list.master - Production source.list file. To be used in conjuncture with the 20-default.list provided by ROS.
 
 ## Custom Rosdep files - These contain package lookups that we can't upstream.
 ros-infrastructure.yaml - Contains package lookups for packages in the ROS Infrastructure repository.
