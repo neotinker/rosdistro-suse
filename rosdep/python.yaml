@@ -1,3 +1,5 @@
+pydocstyle:
+  opensuse: [python313-pydocstyle]
 pyflakes3:
   opensuse: [python313-flakes]
 python3-argcomplete:
