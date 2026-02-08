@@ -16,6 +16,8 @@ libsqlite3-dev:
   opensuse: [sqlite3-devel]
 libxrandr:
   opensuse: [libXrandr-devel]
+procps:
+  opensuse: [procps]
 pybind11-dev:
   opensuse: [python313-pybind11-devel]
 yaml:
