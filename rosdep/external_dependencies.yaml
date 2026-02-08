@@ -19,7 +19,7 @@ liburdfdom-headers-dev:
 liburdfdom-tools:
   opensuse: [urdfdom]
 python3-osrf-pycommon:
-  opensuse: [python313-osrf-pycommon]
+  opensuse: [python313-osrf_pycommon]
 python3-pykdl:
   opensuse: [python3-pykdl]
 
