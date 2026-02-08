@@ -4,5 +4,7 @@ liblttng-ust-dev:
   opensuse: [lttng-ust-devel]
 libqt6widgets6t64:
   opensuse: [libQt6Widgets6]
+pybind11-dev:
+  opensuse: [python313-pybind11-devel]
 yaml:
   opensuse: [libyaml-0-2]
