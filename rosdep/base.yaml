@@ -22,6 +22,8 @@ libqt6widgets6t64:
   opensuse: [libQt6Widgets6]
 libsqlite3-dev:
   opensuse: [sqlite3-devel]
+libxml2-utils:
+  opensuse: [libxml2-tools]
 libxrandr:
   opensuse: [libXrandr-devel]
 nlohmann-json-dev:
