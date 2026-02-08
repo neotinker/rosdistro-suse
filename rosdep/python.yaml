@@ -28,5 +28,7 @@ python3-pyqt5:
   opensuse: [python313-qt5]
 python3-pytest-cov:
   opensuse: [python313-pytest-cov]
+python3-qt5-bindings:
+  opensuse: [python313-qt5]
 python3-types-pyyaml:
   opensuse: [python313-types-PyYAML]
