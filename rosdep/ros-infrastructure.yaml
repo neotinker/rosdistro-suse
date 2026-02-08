@@ -39,4 +39,6 @@ python3-rosdep-modules:
 python3-rosdistro-modules:
   opensuse: [python3-rosinstall-generator]
 python3-vcstool:
-  opensuse: [python3-vcstool]
+  opensuse:
+    '*': [python313-vcs2l]
+    '15.3': [python3-vcstool]
