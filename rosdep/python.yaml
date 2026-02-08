@@ -6,6 +6,8 @@ python3-argcomplete:
   opensuse: [python313-argcomplete]
 python3-cryptography:
   opensuse: [python313-cryptography]
+python3-dev:
+  opensuse: [python313-devel]
 python3-fastjsonschema:
   opensuse: [python313-fastjsonschema]
 python3-flake8-comprehensions:
