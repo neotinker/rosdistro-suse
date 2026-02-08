@@ -1,3 +1,5 @@
+pyflakes3:
+  opensuse: [python313-flakes]
 python3-argcomplete:
   opensuse: [python313-argcomplete]
 python3-packaging:
