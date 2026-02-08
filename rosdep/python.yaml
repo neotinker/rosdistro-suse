@@ -1,7 +1,7 @@
 pydocstyle:
   opensuse: [python313-pydocstyle]
 pyflakes3:
-  opensuse: [python313-flakes]
+  opensuse: [python313-pyflakes]
 python3-argcomplete:
   opensuse: [python313-argcomplete]
 python3-fastjsonschema:
