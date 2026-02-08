@@ -1,3 +1,5 @@
+libatomic:
+  opensuse: [libatomic1]
 liblttng-ctl-dev:
   opensuse: [lttng-tools-devel]
 liblttng-ust-dev:
