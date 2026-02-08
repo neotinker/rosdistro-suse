@@ -14,6 +14,8 @@ libqt6widgets6t64:
   opensuse: [libQt6Widgets6]
 libsqlite3-dev:
   opensuse: [sqlite3-devel]
+libxrandr:
+  opensuse: [libXrandr-devel]
 pybind11-dev:
   opensuse: [python313-pybind11-devel]
 yaml:
