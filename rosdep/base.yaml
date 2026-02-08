@@ -1,2 +1,4 @@
+liblttng-ust-dev:
+  opensuse: [lttng-ust-devel]
 libqt6widgets6t64:
   opensuse: [libQt6Widgets6]
