@@ -1,2 +1,4 @@
+python3-pydantic:
+  opensuse: [python313-pydantic]
 python3-types-pyyaml:
   opensuse: [python313-types-PyYAML]
