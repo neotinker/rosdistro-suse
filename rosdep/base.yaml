@@ -20,6 +20,8 @@ libsqlite3-dev:
   opensuse: [sqlite3-devel]
 libxrandr:
   opensuse: [libXrandr-devel]
+nlohmann-json-dev:
+  opensuse: [nlohmann_json-devel]
 procps:
   opensuse: [procps]
 pybind11-dev:
