@@ -27,7 +27,9 @@ python-wstool:
 python3-catkin-pkg:
   opensuse: [python3-catkin_pkg]
 python3-catkin-pkg-modules:
-  opensuse: [python3-catkin_pkg]
+  opensuse:
+    '*': [python313-catkin_pkg]
+    '15.3': [python3-catkin_pkg]
 python3-rosdep:
   opensuse: [python3-rosdep]
 python3-rosdep-modules:
