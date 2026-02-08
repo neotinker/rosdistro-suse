@@ -1,3 +1,5 @@
+asio:
+  opensuse: [asio-devel]
 clang:
   opensuse: [clang]
 cli11:
