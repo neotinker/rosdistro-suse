@@ -36,6 +36,8 @@ libxrandr:
   opensuse: [libXrandr-devel]
 libzstd-dev:
   opensuse: [libzstd-devel]
+lttng-tools:
+  opensuse: [lttng-tools]
 nlohmann-json-dev:
   opensuse: [nlohmann_json-devel]
 procps:
