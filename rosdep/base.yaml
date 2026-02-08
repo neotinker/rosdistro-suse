@@ -20,6 +20,8 @@ libncurses-dev:
   opensuse: [ncurses-devel]
 libqt6gui6t64:
   opensuse: [libQt6Gui6]
+libqt6opengl6t64:
+  opensuse: [libQt6OpenGL6]
 libqt6svg6:
   opensuse: [libQt6Svg6]
 libqt6widgets6t64:
