@@ -1,3 +1,5 @@
+python3-packaging:
+  opensuse: [python313-packaging]
 python3-pydantic:
   opensuse: [python313-pydantic]
 python3-types-pyyaml:
