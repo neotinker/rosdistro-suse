@@ -1,3 +1,5 @@
+acl:
+  opensuse: [acl, libacl-devel]
 asio:
   opensuse: [asio-devel]
 benchmark:
