@@ -6,6 +6,8 @@ liblttng-ctl-dev:
   opensuse: [lttng-tools-devel]
 liblttng-ust-dev:
   opensuse: [lttng-ust-devel]
+libncurses-dev:
+  opensuse: [ncurses-devel]
 libqt6gui6t64:
   opensuse: [libQt6Gui6]
 libqt6widgets6t64:
