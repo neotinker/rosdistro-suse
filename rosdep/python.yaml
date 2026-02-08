@@ -14,6 +14,8 @@ python3-numpy:
   opensuse: [python313-numpy]
 python3-packaging:
   opensuse: [python313-packaging]
+python3-psutil:
+  opensuse: [python313-psutil]
 python3-pydantic:
   opensuse: [python313-pydantic]
 python3-pytest-cov:
