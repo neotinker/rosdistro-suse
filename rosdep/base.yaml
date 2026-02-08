@@ -1,5 +1,7 @@
 asio:
   opensuse: [asio-devel]
+benchmark:
+  opensuse: [benchmark-devel]
 clang:
   opensuse: [clang]
 cli11:
