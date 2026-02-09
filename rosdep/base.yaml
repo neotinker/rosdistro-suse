@@ -12,6 +12,8 @@ cppcheck:
   opensuse: [cppcheck]
 libatomic:
   opensuse: [libatomic1]
+libfreetype-dev:
+  opensuse: [freetype2-devel]
 libfreetype6:
   opensuse: [libfreetype6]
 liblttng-ctl-dev:
