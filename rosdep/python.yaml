@@ -16,6 +16,8 @@ python3-fastjsonschema:
   opensuse: [python313-fastjsonschema]
 python3-flake8-blind-except:
   opensuse: [python313-flake8-blind-except]
+python3-flake8-builtins:
+  opensuse: [python313-flake8-builtins]
 python3-flake8:
   opensuse: [python313-flake8]
 python3-flake8-comprehensions:
