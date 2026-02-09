@@ -26,6 +26,8 @@ python3-packaging:
   opensuse: [python313-packaging]
 python3-psutil:
   opensuse: [python313-psutil]
+python3-pydot:
+  opensuse: [python313-pydot]
 python3-pydantic:
   opensuse: [python313-pydantic]
 python3-pyqt5:
