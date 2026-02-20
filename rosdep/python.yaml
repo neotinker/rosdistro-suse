@@ -31,7 +31,7 @@ python3-flake8-import-order:
 python3-flake8-quotes:
   opensuse: [python313-flake8-quotes]
 python3-importlib-resources:
-  opensuse: [%{python_flavor}-importlib-resources]
+  opensuse: ['%{python_flavor}-importlib-resources']
 python3-lark-parser:
   opensuse: [python313-lark]
 python3-lxml:
