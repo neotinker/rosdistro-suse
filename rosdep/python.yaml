@@ -66,5 +66,7 @@ python3-qt5-bindings-gl:
   opensuse: [python313-qt5]
 python3-qt5-bindings-webkit:
   opensuse: [python313-qt5]
+python3-setuptools:
+  opensuse: ['%{python_flavor}-setuptools']
 python3-types-pyyaml:
   opensuse: [python313-types-PyYAML]
