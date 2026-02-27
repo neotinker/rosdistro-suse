@@ -24,6 +24,8 @@ liblttng-ust-dev:
   opensuse: [lttng-ust-devel]
 libncurses-dev:
   opensuse: [ncurses-devel]
+libopencv-imgproc:
+  opensuse: [libopencv_ximgproc410]
 libopencv-videoio:
   opensuse: [libopencv_videoio410]
 libqt6gui6t64:
