@@ -24,6 +24,8 @@ liblttng-ust-dev:
   opensuse: [lttng-ust-devel]
 libncurses-dev:
   opensuse: [ncurses-devel]
+libopencv-core:
+  opensuse: [libopencv410]
 libopencv-highgui:
   opensuse: [libopencv_highgui410]
 libopencv-imgcodecs:
