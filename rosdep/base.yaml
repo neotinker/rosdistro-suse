@@ -26,6 +26,8 @@ libncurses-dev:
   opensuse: [ncurses-devel]
 libopencv-highgui:
   opensuse: [libopencv_highgui410]
+libopencv-imgcodecs:
+  opensuse: [libopencv_imgcodecs410]
 libopencv-imgproc:
   opensuse: [libopencv_ximgproc410]
 libopencv-videoio:
