@@ -10,6 +10,8 @@ cli11:
   opensuse: [cli11-devel]
 cppcheck:
   opensuse: [cppcheck]
+file:
+  opensuse: [file]
 libatomic:
   opensuse: [libatomic1]
 libfreetype-dev:
