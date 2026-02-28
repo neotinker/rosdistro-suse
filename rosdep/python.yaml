@@ -1,72 +1,72 @@
 python3-pycodestyle:
-  opensuse: ['%{python_flavor}-pycodestyle']
+  opensuse: ['python313-pycodestyle']
 pydocstyle:
-  opensuse: ['%{python_flavor}-pydocstyle']
+  opensuse: ['python313-pydocstyle']
 pyflakes3:
-  opensuse: ['%{python_flavor}-pyflakes']
+  opensuse: ['python313-pyflakes']
 python3:
-  opensuse: ['%{python_flavor}-devel']
+  opensuse: ['python313-devel']
 python3-argcomplete:
-  opensuse: ['%{python_flavor}-argcomplete']
+  opensuse: ['python313-argcomplete']
 python3-cryptography:
-  opensuse: ['%{python_flavor}-cryptography']
+  opensuse: ['python313-cryptography']
 python3-dev:
-  opensuse: ['%{python_flavor}-devel']
+  opensuse: ['python313-devel']
 python3-fastjsonschema:
-  opensuse: ['%{python_flavor}-fastjsonschema']
+  opensuse: ['python313-fastjsonschema']
 python3-flake8:
-  opensuse: ['%{python_flavor}-flake8']
+  opensuse: ['python313-flake8']
 python3-flake8-blind-except:
-  opensuse: ['%{python_flavor}-flake8-blind-except']
+  opensuse: ['python313-flake8-blind-except']
 python3-flake8-builtins:
-  opensuse: ['%{python_flavor}-flake8-builtins']
+  opensuse: ['python313-flake8-builtins']
 python3-flake8-class-newline:
-  opensuse: ['%{python_flavor}-flake8-class-newline']
+  opensuse: ['python313-flake8-class-newline']
 python3-flake8-comprehensions:
-  opensuse: ['%{python_flavor}-flake8-comprehensions']
+  opensuse: ['python313-flake8-comprehensions']
 python3-flake8-deprecated:
-  opensuse: ['%{python_flavor}-flake8-deprecated']
+  opensuse: ['python313-flake8-deprecated']
 python3-flake8-import-order:
-  opensuse: ['%{python_flavor}-flake8-import-order']
+  opensuse: ['python313-flake8-import-order']
 python3-flake8-quotes:
-  opensuse: ['%{python_flavor}-flake8-quotes']
+  opensuse: ['python313-flake8-quotes']
 python3-importlib-metadata:
-  opensuse: ['%{python_flavor}-importlib-metadata']
+  opensuse: ['python313-importlib-metadata']
 python3-importlib-resources:
-  opensuse: ['%{python_flavor}-importlib-resources']
+  opensuse: ['python313-importlib-resources']
 python3-lark-parser:
-  opensuse: ['%{python_flavor}-lark']
+  opensuse: ['python313-lark']
 python3-lxml:
-  opensuse: ['%{python_flavor}-lxml']
+  opensuse: ['python313-lxml']
 python3-matplotlib:
-  opensuse: ['%{python_flavor}-matplotlib']
+  opensuse: ['python313-matplotlib']
 python3-numpy:
-  opensuse: ['%{python_flavor}-numpy']
+  opensuse: ['python313-numpy']
 python3-packaging:
-  opensuse: ['%{python_flavor}-packaging']
+  opensuse: ['python313-packaging']
 python3-psutil:
-  opensuse: ['%{python_flavor}-psutil']
+  opensuse: ['python313-psutil']
 python3-pydot:
-  opensuse: ['%{python_flavor}-pydot']
+  opensuse: ['python313-pydot']
 python3-pydantic:
-  opensuse: ['%{python_flavor}-pydantic']
+  opensuse: ['python313-pydantic']
 python3-pygraphviz:
-  opensuse: ['%{python_flavor}-pygraphviz']
+  opensuse: ['python313-pygraphviz']
 python3-pyqt5:
-  opensuse: ['%{python_flavor}-qt5']
+  opensuse: ['python313-qt5']
 python3-pytest:
-  opensuse: ['%{python_flavor}-pytest']
+  opensuse: ['python313-pytest']
 python3-pytest-cov:
-  opensuse: ['%{python_flavor}-pytest-cov']
+  opensuse: ['python313-pytest-cov']
 python3-pytest-timeout:
-  opensuse: ['%{python_flavor}-pytest-timeout']
+  opensuse: ['python313-pytest-timeout']
 python3-qt5-bindings:
-  opensuse: ['%{python_flavor}-qt5']
+  opensuse: ['python313-qt5']
 python3-qt5-bindings-gl:
-  opensuse: ['%{python_flavor}-qt5']
+  opensuse: ['python313-qt5']
 python3-qt5-bindings-webkit:
-  opensuse: ['%{python_flavor}-qt5']
+  opensuse: ['python313-qt5']
 python3-setuptools:
-  opensuse: ['%{python_flavor}-setuptools']
+  opensuse: ['python313-setuptools']
 python3-types-pyyaml:
-  opensuse: ['%{python_flavor}-types-PyYAML']
+  opensuse: ['python313-types-PyYAML']
