@@ -22,6 +22,8 @@ liblttng-ctl-dev:
   opensuse: [lttng-tools-devel]
 liblttng-ust-dev:
   opensuse: [lttng-ust-devel]
+liblz4:
+  opensuse: [liblz4-1]
 libncurses-dev:
   opensuse: [ncurses-devel]
 libopencv-core:
