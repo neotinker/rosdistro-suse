@@ -56,6 +56,8 @@ libxrandr:
   opensuse: [libXrandr-devel]
 libxxf86vm:
   opensuse: [libXxf86vm-devel]
+libzip-dev:
+  opensuse: [libzip-devel]
 libzstd-dev:
   opensuse: [libzstd-devel]
 lttng-tools:
