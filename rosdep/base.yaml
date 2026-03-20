@@ -78,5 +78,7 @@ spdlog:
   opensuse: [spdlog-devel]
 uncrustify:
   opensuse: [uncrustify]
+xvfb:
+  opensuse: [xorg-x11-server-Xvfb]
 yaml:
   opensuse: [libyaml-0-2]
