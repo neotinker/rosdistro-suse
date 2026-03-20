@@ -36,6 +36,8 @@ libopencv-imgproc:
   opensuse: [libopencv_ximgproc410]
 libopencv-videoio:
   opensuse: [libopencv_videoio410]
+libqt5-qml:
+  opensuse: [libQtQuick5]
 libqt5-svg:
   opensuse: [libQt5Svg5]
 libqt6gui6t64:
