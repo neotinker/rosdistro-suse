@@ -2,6 +2,8 @@ gazebo9:
   opensuse: [gazebo9]
 libconsole-bridge-dev:
   opensuse: [console_bridge-devel]
+libccd-dev:
+  opensuse: [ccd-devel]
 libfcl-dev:
   opensuse: [fcl-devel]
 libgazebo9-dev:
