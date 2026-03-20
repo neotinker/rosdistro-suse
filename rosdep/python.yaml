@@ -68,5 +68,7 @@ python3-qt5-bindings-webkit:
   opensuse: ['python313-qt5']
 python3-setuptools:
   opensuse: ['python313-setuptools']
+python3-sphinx-rtd-theme:
+  opensuse: ['python313-sphinx_rtd_theme']
 python3-types-pyyaml:
   opensuse: ['python313-types-PyYAML']
