@@ -52,6 +52,8 @@ libsqlite3-dev:
   opensuse: [sqlite3-devel]
 libxaw:
   opensuse: [libXaw-devel]
+libxi-dev:
+  opensuse: [libXi-devel]
 libxml2-utils:
   opensuse: [libxml2-tools]
 libxrandr:
