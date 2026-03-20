@@ -1,3 +1,4 @@
 ruby:
   opensuse:
+    '*': [ruby]
     '15.3': [ruby, ruby-devel, openssl-devel]
