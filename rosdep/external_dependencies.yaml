@@ -8,6 +8,8 @@ libfcl-dev:
   opensuse: [fcl-devel]
 libgazebo9-dev:
   opensuse: [gazebo9-devel]
+liboctomap-dev:
+  opensuse: [octomap-devel]
 liborocos-kdl:
   opensuse: [liborocos-kdl1_5]
 liborocos-kdl-dev:
