@@ -12,6 +12,8 @@ cppcheck:
   opensuse: [cppcheck]
 file:
   opensuse: [file]
+fmt:
+  opensuse: [fmt-devel]
 libatomic:
   opensuse: [libatomic1]
 libfreetype-dev:
