@@ -4,6 +4,8 @@ asio:
   opensuse: [asio-devel]
 benchmark:
   opensuse: [benchmark-devel]
+boost:
+  opensuse: [libboost_atomic1_86_0-devel, libboost_headers1_86_0-devel, libboost_system1_86_0-devel, libboost_thread1_86_0-devel, libboost_chrono1_86_0-devel, libboost_date_time1_86_0-devel, libboost_serialization1_86_0-devel, libboost_filesystem1_86_0-devel, libboost_program_options1_86_0-devel, libboost_python-py3-1_86_0-devel, libboost_signals1_86_0-devel, libboost_regex1_86_0-devel, libboost_iostreams1_86_0-devel]
 clang:
   opensuse: [clang]
 cli11:
@@ -16,6 +18,70 @@ fmt:
   opensuse: [fmt-devel]
 libatomic:
   opensuse: [libatomic1]
+libboost-atomic:
+  opensuse: [libboost_atomic1_86_0]
+libboost-atomic-dev:
+  opensuse: [libboost_atomic1_86_0-devel]
+libboost-chrono:
+  opensuse: [libboost_chrono1_86_0]
+libboost-chrono-dev:
+  opensuse: [libboost_chrono1_86_0-devel]
+libboost-coroutine:
+  opensuse: [libboost_coroutine1_86_0]
+libboost-coroutine-dev:
+  opensuse: [libboost_coroutine1_86_0-devel]
+libboost-date-time:
+  opensuse: [libboost_date_time1_86_0]
+libboost-date-time-dev:
+  opensuse: [libboost_date_time1_86_0-devel]
+libboost-dev:
+  opensuse: [libboost_headers1_86_0-devel]
+libboost-filesystem:
+  opensuse: [libboost_filesystem1_86_0]
+libboost-filesystem-dev:
+  opensuse: [libboost_filesystem1_86_0-devel]
+libboost-iostreams:
+  opensuse: [libboost_iostreams1_86_0]
+libboost-iostreams-dev:
+  opensuse: [libboost_iostreams1_86_0-devel]
+libboost-math:
+  opensuse: [libboost_math1_86_0]
+libboost-math-dev:
+  opensuse: [libboost_math1_86_0-devel]
+libboost-numpy-dev:
+  opensuse: [libboost_numpy-py3-1_86_0-devel]
+libboost-program-options:
+  opensuse: [libboost_program_options1_86_0]
+libboost-program-options-dev:
+  opensuse: [libboost_program_options1_86_0-devel]
+libboost-python:
+  opensuse: [libboost_python-py3-1_86_0]
+libboost-python-dev:
+  opensuse: [libboost_python-py3-1_86_0-devel]
+libboost-random:
+  opensuse: [libboost_random1_86_0]
+libboost-random-dev:
+  opensuse: [libboost_random1_86_0-devel]
+libboost-regex:
+  opensuse: [libboost_regex1_86_0]
+libboost-regex-dev:
+  opensuse: [libboost_regex1_86_0-devel]
+libboost-serialization:
+  opensuse: [libboost_serialization1_86_0]
+libboost-serialization-dev:
+  opensuse: [libboost_serialization1_86_0-devel]
+libboost-system:
+  opensuse: [libboost_system1_86_0]
+libboost-system-dev:
+  opensuse: [libboost_system1_86_0-devel]
+libboost-thread:
+  opensuse: [libboost_thread1_86_0]
+libboost-thread-dev:
+  opensuse: [libboost_thread1_86_0-devel]
+libboost-timer:
+  opensuse: [libboost_timer1_86_0]
+libboost-timer-dev:
+  opensuse: [libboost_timer1_86_0-devel]
 libfreetype-dev:
   opensuse: [freetype2-devel]
 libfreetype6:
