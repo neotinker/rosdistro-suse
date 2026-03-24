@@ -124,6 +124,8 @@ libxi-dev:
   opensuse: [libXi-devel]
 libxml2-utils:
   opensuse: [libxml2-tools]
+libxmu-dev:
+  opensuse: [libXmu-devel]
 libxrandr:
   opensuse: [libXrandr-devel]
 libxxf86vm:
