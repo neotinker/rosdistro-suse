@@ -144,6 +144,8 @@ pybind11-dev:
   opensuse: [python313-pybind11-devel]
 qml-module-qt-labs-folderlistmodel:
   opensuse: [libQtQuick5]
+qml-module-qt-labs-settings:
+  opensuse: [libQtQuick5]
 qt6-base-dev:
   opensuse: [qt6-base-devel]
 qt6-svg-dev:
