@@ -146,6 +146,8 @@ qml-module-qt-labs-folderlistmodel:
   opensuse: [libQtQuick5]
 qml-module-qt-labs-settings:
   opensuse: [libQtQuick5]
+qml-module-qtgraphicaleffects:
+  opensuse: [libqt5-qtgraphicaleffects]
 qt6-base-dev:
   opensuse: [qt6-base-devel]
 qt6-svg-dev:
