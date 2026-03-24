@@ -148,6 +148,8 @@ qml-module-qt-labs-settings:
   opensuse: [libQtQuick5]
 qml-module-qtgraphicaleffects:
   opensuse: [libqt5-qtgraphicaleffects]
+qml-module-qtquick-controls2:
+  opensuse: [libqt5-qtquickcontrols2]
 qt6-base-dev:
   opensuse: [qt6-base-devel]
 qt6-svg-dev:
